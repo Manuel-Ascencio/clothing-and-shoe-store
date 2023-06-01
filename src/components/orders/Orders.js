@@ -17,9 +17,9 @@ import {
   Text,
 } from "./OrdersStyles";
 import { Link } from "react-router-dom";
-
+import web from "../../api/api";
 const Orders = () => {
-  const API = "http://localhost:8080";
+  const API = web;
   const email = useSelector((state) => state.auth.email);
   const dispatch = useDispatch();
   const orders = useSelector((state) => state.orders.orders);
