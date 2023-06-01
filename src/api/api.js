@@ -1,7 +1,7 @@
 import axios from "axios";
 import { createAsyncThunk } from "@reduxjs/toolkit";
 
-const API = "https://backend-clothing-and-shoe-store.onrender.com/";
+const API = "https://backend-clothing-and-shoe-store.onrender.com";
 
 export const checkout = (selectedProducts, userId, email) => {
   axios
