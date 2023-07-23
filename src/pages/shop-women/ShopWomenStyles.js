@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ShopWomenContainer = styled.div`
   width: 90%;
   margin: 100px auto 30px auto;
+  min-height: calc(100vh - 130px);
 
   @media only screen and (min-width: 1020px) {
     display: flex;

@@ -6,12 +6,6 @@
   --secondary-font: Verdana;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --black: #fafbfd;
-  }
-}
-
 * {
   margin: 0;
   padding: 0;
